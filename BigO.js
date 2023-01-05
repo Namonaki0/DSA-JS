@@ -3,9 +3,11 @@
 
 // Big O - always measured as worst case
 
-// O(n) - function runs n times - on a graph O(n) is always a straight line and always proportional - more efficient code
-// O(n^2) - runs slower than O(n)
-// O(1) - most efficient code - on a graph O(1) is a flat line on the bottom - constant time
+// O(n) - function runs n times - on a graph O(n) is always a straight line and always proportional - more efficient code -> //* proportional
+// O(n^2) - runs slower than O(n) -> //* loop within a loop
+// O(1) - most efficient code - on a graph O(1) is a flat line on the bottom -> //* constant time
+// O(log n) - 2^3=8 -> log _(2)(8) = 3 - on a graph this would be just above O(1) -> //* divide and conquer
+// O(nlog n) - the most efficient for a sorting algorithm unless sorting only numbers
 
 // -------------------------------------------------------
 
@@ -64,3 +66,10 @@ function addItems(n) {
 }
 
 addItems(2);
+
+//? Arrays
+// push and pop are both O(1) operations since they don't affect array indexing
+// shift and unshift are both O(n) operations since they affect array indexing - n is the number of items in the array
+
+// array search by value - O(n)
+// array search by index - O(1)
