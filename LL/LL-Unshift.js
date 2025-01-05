@@ -28,4 +28,4 @@ class LinkedList {
 }
 
 let myLinkedList = new LinkedList(10);
-myLinkedList.unshift();
+myLinkedList.unshift(2);
